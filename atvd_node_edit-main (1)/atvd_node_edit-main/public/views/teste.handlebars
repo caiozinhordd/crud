@@ -1,0 +1,16 @@
+
+
+<h1>Lista</h1>
+
+<a href="/">Novo</a>
+
+<div>
+  {{#each teste}}
+    <div>
+      #{{this.id}} - {{this.nome}}
+
+     
+      <a href="/teste/editar/{{this.id}}">Editar</a>
+    </div>
+  {{/each}}
+</div>
